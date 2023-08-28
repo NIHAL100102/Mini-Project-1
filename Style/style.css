@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Caprasimo&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quicksand:wght@600&family=Sedgwick+Ave+Display&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/Images/bg.png');
+    background-repeat: no-repeat;
+    background-size:cover ; 
+}
+ .navbar{
+    height: 60px;
+    width: 100%;
+    background-color:#1f0976;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    font-family: 'Ubuntu', sans-serif;
+} 
+button {
+    position: relative;
+    width:8%;
+    height: 5%;
+}
+.navbar ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;   
+}
+.navbar li {
+    margin: 0 30px; 
+    position: relative;
+    top: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white; 
+    transition: color 0.3s;
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    color: rgb(1, 18, 255);
+    font-size: 35px; 
+}
+.intro{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro img{
+    height: 450px;
+    width: 450px;
+    transition: all 0.3s ease-in;
+    margin-top: -75px;
+}
+.intro img:hover{
+    height: 550px;
+    width: 550px;
+}
+.intro h1{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 75px;
+    margin-top: -200px;
+    color: white;
+}
+.intro h2{
+    padding-bottom: 20px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 26px;
+    margin-top: -194px;
+    color: white;
+}
+
+.skills{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 51px;
+}
+.skills h1{
+    margin-top: 40px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 65px;
+    color:rgb(255, 255, 255);
+}
+
+.me{
+    height: 150px;
+    width: 150px;
+    transition: all 0.3s ease-in;
+}
+.left{
+    width: 40%;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    width: 60%;
+    height: 200px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    margin: 20px;
+    background-color: rgb(217, 207, 245);
+    fill-opacity:0.5em;
+    border-radius:20px;
+    width: 1080px;
+}
+
+.container img{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+   transition: all .4s ease-in;
+
+    
+}
+.container img:hover{
+    height: 200px;
+    width: 200px;
+}
+.container1 {
+    width: 60%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    margin-top: -90px;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+.container p{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(71, 16, 87);
+    font-family: 'Black Ops One', cursive;
+}
+.contact{
+    height: 200px;
+    background-color: rgb(217, 207, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    width: 1080px;
+    margin: 20px;
+    margin-left: 75px;
+}
+
+.contact img{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact img:hover{
+    height: 40px;
+    width: 40px;
+}
+.contact p{
+    color: rgb(71, 16, 87);
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+}
+#contactme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contactme h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 51px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+}
+hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+   border-style:dotted;
+   border-width:5px;
+   border-color: rgb(255, 255, 255);
+   width:60%;
+   height:1%;
+}
+@media (max-width:600px){
+    .container{
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;   
+    }
+    .container img{
+        height: 150px;
+        width: 150px;
+        margin: 20px;  
+    }
+    .container img:hover{
+        height: 150px;
+        width: 150px;
+    
+    }
+}
