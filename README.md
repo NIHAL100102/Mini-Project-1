@@ -1,1 +1,5 @@
-![Screenshot (28)](https://github.com/NIHAL100102/Mini-Project-1/assets/106856711/12883adf-c2bf-4453-b67f-f1f96002256e)
+![Screenshot (28)](https://github.com/NIHAL100102/Mini-Project-1/assets/106856711/f9726d61-5095-4c9c-8ce2-ffc7f7c17a29)
+![Screenshot (24)](https://github.com/NIHAL100102/Mini-Project-1/assets/106856711/ef728b48-9b11-40ff-bab1-3349c050df48)
+![Screenshot (25)](https://github.com/NIHAL100102/Mini-Project-1/assets/106856711/ae277901-0cb2-41e0-b8a8-b0c225b8fa40)
+![Screenshot (26)](https://github.com/NIHAL100102/Mini-Project-1/assets/106856711/2be34e14-5207-464c-b9cb-41edf56044b6)
+![Screenshot (27)](https://github.com/NIHAL100102/Mini-Project-1/assets/106856711/f3c93f75-7c39-4ca9-b676-fb193e6ddbb0)
